@@ -1,16 +1,42 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System Image Map</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <!-- Image of the Solar System with the usemap attribute referencing the map -->
+    <img src="solarsystem.jpg" alt="Solar System" usemap="#solarsystemmap">
+
+    <!-- Define the map with clickable areas -->
+    <map name="solarsystemmap">
+        <!-- Sun -->
+        <area shape="rect" coords="50,50,150,150" href="sun.htm" alt="Sun">
+        <!-- Mercury -->
+        <area shape="circle" coords="200,120,20" href="mercury.htm" alt="Mercury">
+        <!-- Venus -->
+        <area shape="circle" coords="280,130,25" href="venus.htm" alt="Venus">
+        <!-- Earth -->
+        <area shape="circle" coords="360,140,30" href="earth.htm" alt="Earth">
+        <!-- Mars -->
+        <area shape="circle" coords="440,150,20" href="mars.htm" alt="Mars">
+        <!-- Jupiter -->
+        <area shape="circle" coords="540,170,40" href="jupiter.htm" alt="Jupiter">
+        <!-- Saturn -->
+        <area shape="circle" coords="660,190,35" href="saturn.htm" alt="Saturn">
+        <!-- Uranus -->
+        <area shape="circle" coords="760,210,30" href="uranus.htm" alt="Uranus">
+        <!-- Neptune -->
+        <area shape="circle" coords="860,220,30" href="neptune.htm" alt="Neptune">
+        <!-- Pluto (dwarf planet) -->
+        <area shape="circle" coords="950,230,15" href="pluto.htm" alt="Pluto">
+        <!-- Ceres (dwarf planet) -->
+        <area shape="circle" coords="1050,240,10" href="ceres.htm" alt="Ceres">
+        <!-- Eris (dwarf planet) -->
+        <area shape="circle" coords="1150,250,10" href="eris.htm" alt="Eris">
+    </map>
 
 </body>
-
 </html>
